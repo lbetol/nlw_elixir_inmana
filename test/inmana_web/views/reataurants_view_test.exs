@@ -2,8 +2,8 @@ defmodule InmanaWeb.RestaurantsViewTest do
   use InmanaWeb.ConnCase
   import Phoenix.View
 
-  alias InmanaWeb.RestaurantsView
   alias Inmana.Restaurant
+  alias InmanaWeb.RestaurantsView
 
   describe "render/2" do
     test "renders create.json" do
