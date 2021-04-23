@@ -1,5 +1,5 @@
 defmodule InmanaWeb.RestaurantsControllerTest do
-  use InmanaWeb.ConnCase
+  use InmanaWeb.ConnCase, async: true
 
   # describe create/2 o barra 2 é de dois parametros
   describe "create/2" do
